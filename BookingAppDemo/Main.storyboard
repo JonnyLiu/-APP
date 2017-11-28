@@ -430,7 +430,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="我的" id="xS1-0g-lSW"/>
+                    <tabBarItem key="tabBarItem" title="我的" image="我的.png" id="xS1-0g-lSW"/>
                     <navigationItem key="navigationItem" id="85c-Yk-ke1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -450,13 +450,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="首页" id="gID-vq-IuN"/>
+                    <tabBarItem key="tabBarItem" title="首页" image="首页.png" id="gID-vq-IuN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aVH-ME-bq8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1178" y="1259"/>
         </scene>
-        <!--抢票-->
+        <!--发现-->
         <scene sceneID="kXV-sR-gJl">
             <objects>
                 <viewController id="5sV-yV-5R8" sceneMemberID="viewController">
@@ -469,7 +469,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="抢票" id="4bH-U2-3Xv"/>
+                    <tabBarItem key="tabBarItem" title="发现" image="发现.png" id="4bH-U2-3Xv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kbG-Le-SaW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -488,7 +488,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="订单" id="YSf-hT-R14"/>
+                    <tabBarItem key="tabBarItem" title="订单" image="订单.png" id="YSf-hT-R14"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wPs-Pv-2UV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -567,15 +567,19 @@
         <image name="个人-头像.png" width="200" height="191"/>
         <image name="优惠券.png" width="200" height="200"/>
         <image name="关于我们.png" width="200" height="200"/>
+        <image name="发现.png" width="16" height="16"/>
         <image name="右.png" width="200" height="200"/>
         <image name="好友.png" width="200" height="200"/>
         <image name="意见.png" width="200" height="200"/>
+        <image name="我的.png" width="16" height="16"/>
         <image name="旅行.png" width="200" height="200"/>
         <image name="消息.png" width="200" height="200"/>
         <image name="菱形2.png" width="200" height="200"/>
+        <image name="订单.png" width="16" height="16"/>
+        <image name="首页.png" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="RmJ-6E-yxb"/>
+        <segue reference="PsA-zj-9WN"/>
         <segue reference="5bd-WW-F1z"/>
     </inferredMetricsTieBreakers>
 </document>

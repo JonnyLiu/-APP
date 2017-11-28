@@ -31,6 +31,10 @@
 		6A7FDE0E1FCD2D49002E062C /* 消息.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDFD1FCD2D49002E062C /* 消息.png */; };
 		6A7FDE0F1FCD2D49002E062C /* 线条5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDFE1FCD2D49002E062C /* 线条5.png */; };
 		6A7FDE101FCD2D49002E062C /* 菱形2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDFF1FCD2D49002E062C /* 菱形2.png */; };
+		6A7FDE211FCD5B2D002E062C /* 发现.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDE1D1FCD5B2D002E062C /* 发现.png */; };
+		6A7FDE231FCD5B2D002E062C /* 订单.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDE1F1FCD5B2D002E062C /* 订单.png */; };
+		6A7FDE241FCD5B2D002E062C /* 首页.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDE201FCD5B2D002E062C /* 首页.png */; };
+		6A7FDE261FCD5BF3002E062C /* 我的.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDE251FCD5BF3002E062C /* 我的.png */; };
 		91682BF11FC5AEAD0007070D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91682BF01FC5AEAD0007070D /* AppDelegate.m */; };
 		91682BF91FC5AEAD0007070D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91682BF81FC5AEAD0007070D /* Assets.xcassets */; };
 		91682BFF1FC5AEAD0007070D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91682BFE1FC5AEAD0007070D /* main.m */; };
@@ -84,6 +88,10 @@
 		6A7FDDFD1FCD2D49002E062C /* 消息.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息.png"; sourceTree = "<group>"; };
 		6A7FDDFE1FCD2D49002E062C /* 线条5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "线条5.png"; sourceTree = "<group>"; };
 		6A7FDDFF1FCD2D49002E062C /* 菱形2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "菱形2.png"; sourceTree = "<group>"; };
+		6A7FDE1D1FCD5B2D002E062C /* 发现.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发现.png"; sourceTree = "<group>"; };
+		6A7FDE1F1FCD5B2D002E062C /* 订单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "订单.png"; sourceTree = "<group>"; };
+		6A7FDE201FCD5B2D002E062C /* 首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页.png"; sourceTree = "<group>"; };
+		6A7FDE251FCD5BF3002E062C /* 我的.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的.png"; sourceTree = "<group>"; };
 		91682BEC1FC5AEAD0007070D /* BookingAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookingAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91682BEF1FC5AEAD0007070D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91682BF01FC5AEAD0007070D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -146,6 +154,42 @@
 			name = ViewController;
 			sourceTree = "<group>";
 		};
+		6A7FDE1B1FCD5A0F002E062C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A7FDE1C1FCD5A3C002E062C /* Images */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A7FDE1C1FCD5A3C002E062C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6A7FDE251FCD5BF3002E062C /* 我的.png */,
+				6A7FDE1D1FCD5B2D002E062C /* 发现.png */,
+				6A7FDE1F1FCD5B2D002E062C /* 订单.png */,
+				6A7FDE201FCD5B2D002E062C /* 首页.png */,
+				6A7FDDEF1FCD2D49002E062C /* 3E01D292-11AD-44D7-B6ED-968E0AB09016.png */,
+				6A7FDDF01FCD2D49002E062C /* 222.png */,
+				6A7FDDF11FCD2D49002E062C /* 1111.png */,
+				6A7FDDF21FCD2D49002E062C /* C8F20491-CA70-4808-AD8E-F8DAF2F25733.png */,
+				6A7FDDF31FCD2D49002E062C /* 个人-头像.png */,
+				6A7FDDF41FCD2D49002E062C /* 人头.png */,
+				6A7FDDF51FCD2D49002E062C /* 优惠券.png */,
+				6A7FDDF61FCD2D49002E062C /* 关于我们.png */,
+				6A7FDDF71FCD2D49002E062C /* 加载.png */,
+				6A7FDDF81FCD2D49002E062C /* 右.png */,
+				6A7FDDF91FCD2D49002E062C /* 好友.png */,
+				6A7FDDFA1FCD2D49002E062C /* 意见.png */,
+				6A7FDDFB1FCD2D49002E062C /* 旅行.png */,
+				6A7FDDFC1FCD2D49002E062C /* 更新.png */,
+				6A7FDDFD1FCD2D49002E062C /* 消息.png */,
+				6A7FDDFE1FCD2D49002E062C /* 线条5.png */,
+				6A7FDDFF1FCD2D49002E062C /* 菱形2.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		91682BE31FC5AEAD0007070D = {
 			isa = PBXGroup;
 			children = (
@@ -169,23 +213,6 @@
 		91682BEE1FC5AEAD0007070D /* BookingAppDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6A7FDDEF1FCD2D49002E062C /* 3E01D292-11AD-44D7-B6ED-968E0AB09016.png */,
-				6A7FDDF01FCD2D49002E062C /* 222.png */,
-				6A7FDDF11FCD2D49002E062C /* 1111.png */,
-				6A7FDDF21FCD2D49002E062C /* C8F20491-CA70-4808-AD8E-F8DAF2F25733.png */,
-				6A7FDDF31FCD2D49002E062C /* 个人-头像.png */,
-				6A7FDDF41FCD2D49002E062C /* 人头.png */,
-				6A7FDDF51FCD2D49002E062C /* 优惠券.png */,
-				6A7FDDF61FCD2D49002E062C /* 关于我们.png */,
-				6A7FDDF71FCD2D49002E062C /* 加载.png */,
-				6A7FDDF81FCD2D49002E062C /* 右.png */,
-				6A7FDDF91FCD2D49002E062C /* 好友.png */,
-				6A7FDDFA1FCD2D49002E062C /* 意见.png */,
-				6A7FDDFB1FCD2D49002E062C /* 旅行.png */,
-				6A7FDDFC1FCD2D49002E062C /* 更新.png */,
-				6A7FDDFD1FCD2D49002E062C /* 消息.png */,
-				6A7FDDFE1FCD2D49002E062C /* 线条5.png */,
-				6A7FDDFF1FCD2D49002E062C /* 菱形2.png */,
 				6A7FDDBC1FCD29A7002E062C /* MBProgressHUD */,
 				6A7FDDC61FCD2A12002E062C /* ViewController */,
 				6A7FDDB21FCD223D002E062C /* LaunchScreen.storyboard */,
@@ -195,6 +222,7 @@
 				91682BF81FC5AEAD0007070D /* Assets.xcassets */,
 				91682BFD1FC5AEAD0007070D /* Info.plist */,
 				91682BFE1FC5AEAD0007070D /* main.m */,
+				6A7FDE1B1FCD5A0F002E062C /* Supporting Files */,
 			);
 			path = BookingAppDemo;
 			sourceTree = "<group>";
@@ -331,7 +359,9 @@
 				6A7FDE071FCD2D49002E062C /* 关于我们.png in Resources */,
 				6A7FDE021FCD2D49002E062C /* 1111.png in Resources */,
 				6A7FDE041FCD2D49002E062C /* 个人-头像.png in Resources */,
+				6A7FDE231FCD5B2D002E062C /* 订单.png in Resources */,
 				6A7FDE0E1FCD2D49002E062C /* 消息.png in Resources */,
+				6A7FDE241FCD5B2D002E062C /* 首页.png in Resources */,
 				6A7FDDB51FCD223D002E062C /* Main.storyboard in Resources */,
 				91682BF91FC5AEAD0007070D /* Assets.xcassets in Resources */,
 				6A7FDE061FCD2D49002E062C /* 优惠券.png in Resources */,
@@ -341,8 +371,10 @@
 				6A7FDE0A1FCD2D49002E062C /* 好友.png in Resources */,
 				6A7FDDC21FCD29CE002E062C /* MBProgressHUD.bundle in Resources */,
 				6A7FDE001FCD2D49002E062C /* 3E01D292-11AD-44D7-B6ED-968E0AB09016.png in Resources */,
+				6A7FDE261FCD5BF3002E062C /* 我的.png in Resources */,
 				6A7FDE031FCD2D49002E062C /* C8F20491-CA70-4808-AD8E-F8DAF2F25733.png in Resources */,
 				6A7FDDB41FCD223D002E062C /* LaunchScreen.storyboard in Resources */,
+				6A7FDE211FCD5B2D002E062C /* 发现.png in Resources */,
 				6A7FDE0F1FCD2D49002E062C /* 线条5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
