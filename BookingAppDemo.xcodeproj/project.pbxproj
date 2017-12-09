@@ -10,8 +10,9 @@
 		6A4D050D1FDBD8010030CE43 /* FDSlideBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4D050C1FDBD8010030CE43 /* FDSlideBar.m */; };
 		6A4D05101FDBD8470030CE43 /* FDSlideBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4D050F1FDBD8470030CE43 /* FDSlideBarItem.m */; };
 		6A4D05171FDBDAF90030CE43 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4D05161FDBDAF90030CE43 /* TableViewCell.m */; };
-		6A4D05191FDBDB250030CE43 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A4D05181FDBDB250030CE43 /* TableViewCell.xib */; };
 		6A4D051B1FDC214A0030CE43 /* 启动页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A4D051A1FDC214A0030CE43 /* 启动页.jpg */; };
+		6A4D051D1FDC289C0030CE43 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A4D051C1FDC289C0030CE43 /* TableViewCell.xib */; };
+		6A4D05201FDC29450030CE43 /* FDSlideContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4D051F1FDC29450030CE43 /* FDSlideContentView.m */; };
 		6A7FDDB41FCD223D002E062C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDB21FCD223D002E062C /* LaunchScreen.storyboard */; };
 		6A7FDDB51FCD223D002E062C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDB31FCD223D002E062C /* Main.storyboard */; };
 		6A7FDE001FCD2D49002E062C /* 3E01D292-11AD-44D7-B6ED-968E0AB09016.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDEF1FCD2D49002E062C /* 3E01D292-11AD-44D7-B6ED-968E0AB09016.png */; };
@@ -77,8 +78,10 @@
 		6A4D050F1FDBD8470030CE43 /* FDSlideBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSlideBarItem.m; sourceTree = "<group>"; };
 		6A4D05151FDBDAF90030CE43 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		6A4D05161FDBDAF90030CE43 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
-		6A4D05181FDBDB250030CE43 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		6A4D051A1FDC214A0030CE43 /* 启动页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "启动页.jpg"; sourceTree = "<group>"; };
+		6A4D051C1FDC289C0030CE43 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		6A4D051E1FDC29450030CE43 /* FDSlideContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSlideContentView.h; sourceTree = "<group>"; };
+		6A4D051F1FDC29450030CE43 /* FDSlideContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSlideContentView.m; sourceTree = "<group>"; };
 		6A7FDDB21FCD223D002E062C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A7FDDB31FCD223D002E062C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		6A7FDDEF1FCD2D49002E062C /* 3E01D292-11AD-44D7-B6ED-968E0AB09016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3E01D292-11AD-44D7-B6ED-968E0AB09016.png"; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 		6A4D050A1FDBD7EB0030CE43 /* SlideBar */ = {
 			isa = PBXGroup;
 			children = (
+				6A4D051E1FDC29450030CE43 /* FDSlideContentView.h */,
+				6A4D051F1FDC29450030CE43 /* FDSlideContentView.m */,
 				6A4D050E1FDBD8470030CE43 /* FDSlideBarItem.h */,
 				6A4D050F1FDBD8470030CE43 /* FDSlideBarItem.m */,
 				6A4D050B1FDBD8010030CE43 /* FDSlideBar.h */,
@@ -243,7 +248,7 @@
 		91682BEE1FC5AEAD0007070D /* BookingAppDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6A4D05181FDBDB250030CE43 /* TableViewCell.xib */,
+				6A4D051C1FDC289C0030CE43 /* TableViewCell.xib */,
 				6A4D05151FDBDAF90030CE43 /* TableViewCell.h */,
 				6A4D05161FDBDAF90030CE43 /* TableViewCell.m */,
 				6A4D050A1FDBD7EB0030CE43 /* SlideBar */,
@@ -397,10 +402,10 @@
 				6A7FDE021FCD2D49002E062C /* 1111.png in Resources */,
 				6A7FDE041FCD2D49002E062C /* 个人-头像.png in Resources */,
 				6A7FDE231FCD5B2D002E062C /* 订单.png in Resources */,
+				6A4D051D1FDC289C0030CE43 /* TableViewCell.xib in Resources */,
 				6A7FDE0E1FCD2D49002E062C /* 消息.png in Resources */,
 				6ACCA1151FD66206009BAE82 /* 门票.png in Resources */,
 				6A7FDE241FCD5B2D002E062C /* 首页.png in Resources */,
-				6A4D05191FDBDB250030CE43 /* TableViewCell.xib in Resources */,
 				6A7FDDB51FCD223D002E062C /* Main.storyboard in Resources */,
 				91682BF91FC5AEAD0007070D /* Assets.xcassets in Resources */,
 				6A7FDE061FCD2D49002E062C /* 优惠券.png in Resources */,
@@ -445,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ACCA1031FD65880009BAE82 /* ViewController.m in Sources */,
+				6A4D05201FDC29450030CE43 /* FDSlideContentView.m in Sources */,
 				6A4D05171FDBDAF90030CE43 /* TableViewCell.m in Sources */,
 				91682BFF1FC5AEAD0007070D /* main.m in Sources */,
 				91682BF11FC5AEAD0007070D /* AppDelegate.m in Sources */,

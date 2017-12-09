@@ -1,9 +1,9 @@
 //
 //  TableViewCell.m
-//  FDSlideBarDemo
+//  ZhiXing
 //
-//  Created by fergusding on 15/7/14.
-//  Copyright (c) 2015年 fergusding. All rights reserved.
+//  Created by rjh on 2017/12/09.
+//  Copyright © 2017年 rjh. All rights reserved.
 //
 
 #import "TableViewCell.h"
@@ -17,6 +17,7 @@
 @implementation TableViewCell
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
     self.selectionStyle = UITableViewCellSelectionStyleNone;
 }
 

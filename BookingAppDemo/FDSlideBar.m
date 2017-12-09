@@ -1,9 +1,9 @@
 //
 //  FDSlideBar.m
-//  FDSlideBarDemo
+//  ZhiXing
 //
-//  Created by fergusding on 15/6/4.
-//  Copyright (c) 2015年 fergusding. All rights reserved.
+//  Created by rjh on 2017/12/09.
+//  Copyright © 2017年 rjh. All rights reserved.
 //
 
 #import "FDSlideBar.h"
@@ -96,7 +96,7 @@
         FDSlideBarItem *item = [[FDSlideBarItem alloc] init];
         item.delegate = self;
         
-        // Init the current item's frame
+        // 初始化当前菜单项的frame
         CGFloat itemW = [FDSlideBarItem widthForTitle:title];
         item.frame = CGRectMake(itemX, 0, itemW, CGRectGetHeight(_scrollView.frame));
         [item setItemTitle:title];
@@ -104,19 +104,16 @@
         
         [_scrollView addSubview:item];
         
-        // Caculate the origin.x of the next item
         itemX = CGRectGetMaxX(item.frame);
     }
     
-    // Cculate the scrollView 's contentSize by all the items
     _scrollView.contentSize = CGSizeMake(itemX, CGRectGetHeight(_scrollView.frame));
     
-    // Set the default selected item, the first item
+    // 设定默认选中的菜单项
     FDSlideBarItem *firstItem = [self.items firstObject];
     firstItem.selected = YES;
     _selectedItem = firstItem;
     
-    // Set the frame of sliderView by the selected item
     _sliderView.frame = CGRectMake(0, self.frame.size.height - SLIDER_VIEW_HEIGHT, firstItem.frame.size.width, SLIDER_VIEW_HEIGHT);
 }
 
@@ -124,28 +121,27 @@
     NSInteger selectedItemIndex = [self.items indexOfObject:_selectedItem];
     NSInteger visibleItemIndex = [self.items indexOfObject:item];
     
-    // If the selected item is same to the item to be visible, nothing to do
+    // 如果选中的是当前菜单项，就什么也不做
     if (selectedItemIndex == visibleItemIndex) {
         return;
     }
     
     CGPoint offset = _scrollView.contentOffset;
     
-    // If the item to be visible is in the screen, nothing to do
+    // 如果选择的菜单项在当前屏幕内，什么也不做
     if (CGRectGetMinX(item.frame) >= offset.x && CGRectGetMaxX(item.frame) <= (offset.x + CGRectGetWidth(_scrollView.frame))) {
         return;
     }
     
-    // Update the scrollView's contentOffset according to different situation
+    // 修改不同情况下scrollView的contentOffset
     if (selectedItemIndex < visibleItemIndex) {
-        // The item to be visible is on the right of the selected item and the selected item is out of screeen by the left, also the opposite case, set the offset respectively
+        // 如果将要显示的菜单项在当前选中项的右边
         if (CGRectGetMaxX(_selectedItem.frame) < offset.x) {
             offset.x = CGRectGetMinX(item.frame);
         } else {
             offset.x = CGRectGetMaxX(item.frame) - CGRectGetWidth(_scrollView.frame);
         }
     } else {
-        // The item to be visible is on the left of the selected item and the selected item is out of screeen by the right, also the opposite case, set the offset respectively
         if (CGRectGetMinX(_selectedItem.frame) > (offset.x + CGRectGetWidth(_scrollView.frame))) {
             offset.x = CGRectGetMaxX(item.frame) - CGRectGetWidth(_scrollView.frame);
         } else {
@@ -156,28 +152,28 @@
 }
 
 - (void)addAnimationWithSelectedItem:(FDSlideBarItem *)item {
-    // Caculate the distance of translation
+    // 计算距离
     CGFloat dx = CGRectGetMidX(item.frame) - CGRectGetMidX(_selectedItem.frame);
     
-    // Add the animation about translation
+    // 添加转换的动画
     CABasicAnimation *positionAnimation = [CABasicAnimation animation];
     positionAnimation.keyPath = @"position.x";
     positionAnimation.fromValue = @(_sliderView.layer.position.x);
     positionAnimation.toValue = @(_sliderView.layer.position.x + dx);
     
-    // Add the animation about size
+    // 添加大小的动画
     CABasicAnimation *boundsAnimation = [CABasicAnimation animation];
     boundsAnimation.keyPath = @"bounds.size.width";
     boundsAnimation.fromValue = @(CGRectGetWidth(_sliderView.layer.bounds));
     boundsAnimation.toValue = @(CGRectGetWidth(item.frame));
     
-    // Combine all the animations to a group
+    // 组合动画，组合成一个group
     CAAnimationGroup *animationGroup = [CAAnimationGroup animation];
     animationGroup.animations = @[positionAnimation, boundsAnimation];
     animationGroup.duration = 0.2;
     [_sliderView.layer addAnimation:animationGroup forKey:@"basic"];
     
-    // Keep the state after animating
+    // 动画之后保持状态
     _sliderView.layer.position = CGPointMake(_sliderView.layer.position.x + dx, _sliderView.layer.position.y);
     CGRect rect = _sliderView.layer.bounds;
     rect.size.width = CGRectGetWidth(item.frame);

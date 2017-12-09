@@ -1,10 +1,11 @@
 //
 //  FDSlideBarItem.h
-//  FDSlideBarDemo
+//  ZhiXing
 //
-//  Created by fergusding on 15/6/4.
-//  Copyright (c) 2015年 fergusding. All rights reserved.
+//  Created by rjh on 2017/12/09.
+//  Copyright © 2017年 rjh. All rights reserved.
 //
+
 
 #import <UIKit/UIKit.h>
 
