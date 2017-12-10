@@ -22,6 +22,7 @@
 		6A42C4A01FDD2EFC0037D6D4 /* YXViewPagerTopItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C4901FDD2EFC0037D6D4 /* YXViewPagerTopItemView.m */; };
 		6A42C4A11FDD2EFC0037D6D4 /* YXViewPagerTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C4921FDD2EFC0037D6D4 /* YXViewPagerTopView.m */; };
 		6A42C4A31FDD3C060037D6D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A42C4A21FDD3C060037D6D4 /* Assets.xcassets */; };
+		6A42C4A51FDD8DE20037D6D4 /* TrainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C4A41FDD8DE20037D6D4 /* TrainVC.m */; };
 		6A4D051B1FDC214A0030CE43 /* 启动页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A4D051A1FDC214A0030CE43 /* 启动页.jpg */; };
 		6A7FDDB41FCD223D002E062C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDB21FCD223D002E062C /* LaunchScreen.storyboard */; };
 		6A7FDDB51FCD223D002E062C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDB31FCD223D002E062C /* Main.storyboard */; };
@@ -116,6 +117,8 @@
 		6A42C4921FDD2EFC0037D6D4 /* YXViewPagerTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXViewPagerTopView.m; sourceTree = "<group>"; };
 		6A42C4931FDD2EFC0037D6D4 /* YXViewPager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXViewPager.h; sourceTree = "<group>"; };
 		6A42C4A21FDD3C060037D6D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A42C4A41FDD8DE20037D6D4 /* TrainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainVC.m; sourceTree = "<group>"; };
+		6A42C4A61FDD8DF50037D6D4 /* TrainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrainVC.h; sourceTree = "<group>"; };
 		6A4D051A1FDC214A0030CE43 /* 启动页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "启动页.jpg"; sourceTree = "<group>"; };
 		6A7FDDB21FCD223D002E062C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A7FDDB31FCD223D002E062C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -300,6 +303,8 @@
 			children = (
 				6ACCA1011FD65880009BAE82 /* ViewController.h */,
 				6ACCA1021FD65880009BAE82 /* ViewController.m */,
+				6A42C4A61FDD8DF50037D6D4 /* TrainVC.h */,
+				6A42C4A41FDD8DE20037D6D4 /* TrainVC.m */,
 			);
 			name = ViewController;
 			path = BookingAppDemo;
@@ -586,6 +591,7 @@
 				6A42C49F1FDD2EFC0037D6D4 /* YXViewPagerScrollView.m in Sources */,
 				91682BFF1FC5AEAD0007070D /* main.m in Sources */,
 				91682BF11FC5AEAD0007070D /* AppDelegate.m in Sources */,
+				6A42C4A51FDD8DE20037D6D4 /* TrainVC.m in Sources */,
 				6A42C49A1FDD2EFC0037D6D4 /* UIImage+YX.m in Sources */,
 				6A42C49D1FDD2EFC0037D6D4 /* YXViewPagerBaseSubViewController.m in Sources */,
 				6A42C4981FDD2EFC0037D6D4 /* YXViewPagerItemViewModel.m in Sources */,

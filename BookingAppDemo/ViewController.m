@@ -67,13 +67,13 @@
                                  @"maskPositionType": @2,
                                  @"type": @0,
                                  @"items": @[@{
-                                                @"itemType":@2,
-                                                @"title":@"火车票",
-                                                @"normalTitleColor":@"#666666",
-                                                @"selectTitleColor":@"#FFFFFF",
-                                                @"normalIconName":@"train_unselected",
-                                                @"selectIconName":@"train_selected",
-                                                @"vcName":@"YXViewPagerSub0ViewController"
+                                                @"itemType": @2,
+                                                @"title": @"火车票",
+                                                @"normalTitleColor": @"#666666",
+                                                @"selectTitleColor": @"#FFFFFF",
+                                                @"normalIconName": @"train_unselected",
+                                                @"selectIconName": @"train_selected",
+                                                @"vcName": @"TrainVC"
                                                 },
                                             @{
                                                 @"itemType":@2,
@@ -108,7 +108,7 @@
                                                 @"normalTitleColor":@"#666666",
                                                 @"selectTitleColor":@"#FFFFFF",
                                                 @"normalIconName":@"spcar_unselected",
-                                                @"selectIconName":@"spcat_selected",
+                                                @"selectIconName":@"spcar_selected",
                                                 @"vcName":@"YXViewPagerSub4ViewController"
                                                 }
                                             ]
