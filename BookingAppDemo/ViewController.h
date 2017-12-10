@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YXViewPager.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : YXViewPagerBaseViewController
 
 
 @end
