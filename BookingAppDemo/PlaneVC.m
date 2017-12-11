@@ -1,19 +1,19 @@
 //
-//  TrainVC.m
+//  PlaneVC.m
 //  BookingAppDemo
 //
-//  Created by Allen on 10/12/2017.
+//  Created by Allen on 11/12/2017.
 //  Copyright © 2017 Group3. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "TrainVC.h"
+#import "PlaneVC.h"
 
-@interface TrainVC ()
+@interface PlaneVC ()
 
 @end
 
-@implementation TrainVC
+@implementation PlaneVC
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

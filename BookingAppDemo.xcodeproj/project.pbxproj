@@ -19,6 +19,14 @@
 		6A2C4C2B1FDE3DEF00F79130 /* YXViewPagerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C4C1C1FDE3DEF00F79130 /* YXViewPagerScrollView.m */; };
 		6A2C4C2C1FDE3DEF00F79130 /* YXViewPagerTopItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C4C1E1FDE3DEF00F79130 /* YXViewPagerTopItemView.m */; };
 		6A2C4C2D1FDE3DEF00F79130 /* YXViewPagerTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C4C201FDE3DEF00F79130 /* YXViewPagerTopView.m */; };
+		6A2C4C321FDE77E800F79130 /* TrainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4C2F1FDE77E800F79130 /* TrainVC.xib */; };
+		6A2C4C361FDE798600F79130 /* PlaneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C4C351FDE798600F79130 /* PlaneVC.m */; };
+		6A2C4C381FDE799900F79130 /* PlaneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4C371FDE799900F79130 /* PlaneVC.xib */; };
+		6A2C4C3A1FDE816500F79130 /* separator.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4C391FDE816500F79130 /* separator.png */; };
+		6A2C4C3D1FDE85CD00F79130 /* trainVC1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4C3B1FDE85CD00F79130 /* trainVC1.png */; };
+		6A2C4C3E1FDE85CD00F79130 /* trainVC2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4C3C1FDE85CD00F79130 /* trainVC2.png */; };
+		6A2C4C421FDE87F600F79130 /* 交换.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4C411FDE87F600F79130 /* 交换.png */; };
+		6A2C4C441FDE88D000F79130 /* trainVC3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4C431FDE88D000F79130 /* trainVC3.png */; };
 		6A42C4A31FDD3C060037D6D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A42C4A21FDD3C060037D6D4 /* Assets.xcassets */; };
 		6A42C4A51FDD8DE20037D6D4 /* TrainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C4A41FDD8DE20037D6D4 /* TrainVC.m */; };
 		6A4D051B1FDC214A0030CE43 /* 启动页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A4D051A1FDC214A0030CE43 /* 启动页.jpg */; };
@@ -109,6 +117,15 @@
 		6A2C4C1F1FDE3DEF00F79130 /* YXViewPagerTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXViewPagerTopView.h; sourceTree = "<group>"; };
 		6A2C4C201FDE3DEF00F79130 /* YXViewPagerTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXViewPagerTopView.m; sourceTree = "<group>"; };
 		6A2C4C211FDE3DEF00F79130 /* YXViewPager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXViewPager.h; sourceTree = "<group>"; };
+		6A2C4C2F1FDE77E800F79130 /* TrainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrainVC.xib; sourceTree = "<group>"; };
+		6A2C4C341FDE796800F79130 /* PlaneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaneVC.h; sourceTree = "<group>"; };
+		6A2C4C351FDE798600F79130 /* PlaneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaneVC.m; sourceTree = "<group>"; };
+		6A2C4C371FDE799900F79130 /* PlaneVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaneVC.xib; sourceTree = "<group>"; };
+		6A2C4C391FDE816500F79130 /* separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = separator.png; sourceTree = "<group>"; };
+		6A2C4C3B1FDE85CD00F79130 /* trainVC1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trainVC1.png; sourceTree = "<group>"; };
+		6A2C4C3C1FDE85CD00F79130 /* trainVC2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trainVC2.png; sourceTree = "<group>"; };
+		6A2C4C411FDE87F600F79130 /* 交换.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "交换.png"; sourceTree = "<group>"; };
+		6A2C4C431FDE88D000F79130 /* trainVC3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trainVC3.png; sourceTree = "<group>"; };
 		6A42C4511FDD23430037D6D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A42C4531FDD23690037D6D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6A42C4551FDD236E0037D6D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -265,6 +282,19 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		6A2C4C2E1FDE77D900F79130 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				6A2C4C2F1FDE77E800F79130 /* TrainVC.xib */,
+				6A42C4A61FDD8DF50037D6D4 /* TrainVC.h */,
+				6A42C4A41FDD8DE20037D6D4 /* TrainVC.m */,
+				6A2C4C341FDE796800F79130 /* PlaneVC.h */,
+				6A2C4C351FDE798600F79130 /* PlaneVC.m */,
+				6A2C4C371FDE799900F79130 /* PlaneVC.xib */,
+			);
+			name = SubView;
+			sourceTree = "<group>";
+		};
 		6A42C4501FDD23420037D6D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,10 +308,9 @@
 		6A7FDDC61FCD2A12002E062C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6A2C4C2E1FDE77D900F79130 /* SubView */,
 				6ACCA1011FD65880009BAE82 /* ViewController.h */,
 				6ACCA1021FD65880009BAE82 /* ViewController.m */,
-				6A42C4A61FDD8DF50037D6D4 /* TrainVC.h */,
-				6A42C4A41FDD8DE20037D6D4 /* TrainVC.m */,
 			);
 			name = ViewController;
 			path = BookingAppDemo;
@@ -298,6 +327,11 @@
 		6A7FDE1C1FCD5A3C002E062C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6A2C4C431FDE88D000F79130 /* trainVC3.png */,
+				6A2C4C411FDE87F600F79130 /* 交换.png */,
+				6A2C4C3B1FDE85CD00F79130 /* trainVC1.png */,
+				6A2C4C3C1FDE85CD00F79130 /* trainVC2.png */,
+				6A2C4C391FDE816500F79130 /* separator.png */,
 				6A4D051A1FDC214A0030CE43 /* 启动页.jpg */,
 				6ACCA1161FD663CF009BAE82 /* c1.jpg */,
 				6ACCA1041FD66206009BAE82 /* 20拼车.png */,
@@ -497,12 +531,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A7FDE081FCD2D49002E062C /* 加载.png in Resources */,
+				6A2C4C321FDE77E800F79130 /* TrainVC.xib in Resources */,
 				6A7FDE0C1FCD2D49002E062C /* 旅行.png in Resources */,
 				6ACCA1141FD66206009BAE82 /* 酒店.png in Resources */,
 				6ACCA1101FD66206009BAE82 /* 约专车-01.png in Resources */,
 				6ACCA10D1FD66206009BAE82 /* 20拼车.png in Resources */,
 				6A7FDE011FCD2D49002E062C /* 222.png in Resources */,
+				6A2C4C441FDE88D000F79130 /* trainVC3.png in Resources */,
 				6A7FDE101FCD2D49002E062C /* 菱形2.png in Resources */,
+				6A2C4C421FDE87F600F79130 /* 交换.png in Resources */,
 				6A7FDE0D1FCD2D49002E062C /* 更新.png in Resources */,
 				6ACCA1111FD66206009BAE82 /* 线.png in Resources */,
 				6A7FDE071FCD2D49002E062C /* 关于我们.png in Resources */,
@@ -511,6 +548,7 @@
 				6A7FDE231FCD5B2D002E062C /* 订单.png in Resources */,
 				6A7FDE0E1FCD2D49002E062C /* 消息.png in Resources */,
 				6ACCA1151FD66206009BAE82 /* 门票.png in Resources */,
+				6A2C4C381FDE799900F79130 /* PlaneVC.xib in Resources */,
 				6A7FDE241FCD5B2D002E062C /* 首页.png in Resources */,
 				6A7FDDB51FCD223D002E062C /* Main.storyboard in Resources */,
 				6A7FDE061FCD2D49002E062C /* 优惠券.png in Resources */,
@@ -518,12 +556,15 @@
 				6ACCA10E1FD66206009BAE82 /* 抢手票-4.png in Resources */,
 				6A7FDE0B1FCD2D49002E062C /* 意见.png in Resources */,
 				6A7FDE091FCD2D49002E062C /* 右.png in Resources */,
+				6A2C4C3E1FDE85CD00F79130 /* trainVC2.png in Resources */,
 				6ACCA1131FD66206009BAE82 /* 订餐.png in Resources */,
+				6A2C4C3D1FDE85CD00F79130 /* trainVC1.png in Resources */,
 				6A7FDE0A1FCD2D49002E062C /* 好友.png in Resources */,
 				6A7FDE001FCD2D49002E062C /* 3E01D292-11AD-44D7-B6ED-968E0AB09016.png in Resources */,
 				6A7FDE261FCD5BF3002E062C /* 我的.png in Resources */,
 				6ACCA1171FD663CF009BAE82 /* c1.jpg in Resources */,
 				6A7FDE031FCD2D49002E062C /* C8F20491-CA70-4808-AD8E-F8DAF2F25733.png in Resources */,
+				6A2C4C3A1FDE816500F79130 /* separator.png in Resources */,
 				6A42C4A31FDD3C060037D6D4 /* Assets.xcassets in Resources */,
 				6A4D051B1FDC214A0030CE43 /* 启动页.jpg in Resources */,
 				6A7FDDB41FCD223D002E062C /* LaunchScreen.storyboard in Resources */,
@@ -569,6 +610,7 @@
 				6A2C4C281FDE3DEF00F79130 /* UIView+YX.m in Sources */,
 				6A2C4C291FDE3DEF00F79130 /* YXViewPagerBaseSubViewController.m in Sources */,
 				6A2C4C271FDE3DEF00F79130 /* UIImageView+YX.m in Sources */,
+				6A2C4C361FDE798600F79130 /* PlaneVC.m in Sources */,
 				91682BF11FC5AEAD0007070D /* AppDelegate.m in Sources */,
 				6A42C4A51FDD8DE20037D6D4 /* TrainVC.m in Sources */,
 			);
