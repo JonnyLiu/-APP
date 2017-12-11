@@ -12,11 +12,6 @@
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate>
 
-//@property (weak, nonatomic) IBOutlet UITextField *accountField;
-//@property (weak, nonatomic) IBOutlet UITextField *pwdField;
-//@property (weak, nonatomic) IBOutlet UIButton *loginBtn;
-//- (IBAction)checkLogin;
-
 //@property (weak, nonatomic) IBOutlet UITableView *tableview;
 
 @end
@@ -39,15 +34,13 @@
 
     /********** 以上为首页相关代码 **********/
     
-    //    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(textChange) name:UITextFieldTextDidChangeNotification object:self.accountField];
-    //    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(textChange) name:UITextFieldTextDidChangeNotification object:self.pwdField];
-    //
+    /********** 以下为文章页相关代码 **********/
     //    self.tableview.rowHeight = 100;
     //    self.tableview.sectionHeaderHeight = 80;
     //    self.tableview.separatorStyle = UITableViewCellSeparatorStyleNone;
     //    self.tableview.separatorColor =[UIColor redColor];
     //    self.tableview.tableFooterView = [[UITableView  alloc] init];
-   
+    /********** 以上为文章页相关代码 **********/
 }
 
 
@@ -90,7 +83,7 @@
                                                 @"selectTitleColor":@"#FFFFFF",
                                                 @"normalIconName":@"plane_unselected",
                                                 @"selectIconName":@"plane_selected",
-                                                @"vcName":@"YXViewPagerSub1ViewController"
+                                                @"vcName":@"PlaneVC"
                                                 },
                                             @{
                                                 @"itemType":@2,
@@ -99,7 +92,7 @@
                                                 @"selectTitleColor":@"#FFFFFF",
                                                 @"normalIconName":@"car_unselected",
                                                 @"selectIconName":@"car_selected",
-                                                @"vcName":@"YXViewPagerSub2ViewController"
+                                                @"vcName":@"CarVC"
                                                 },
                                             @{
                                                 @"itemType":@2,
@@ -108,7 +101,7 @@
                                                 @"selectTitleColor":@"#FFFFFF",
                                                 @"normalIconName":@"hotel_unselected",
                                                 @"selectIconName":@"hotel_selected",
-                                                @"vcName":@"YXViewPagerSub3ViewController"
+                                                @"vcName":@"HotelVC"
                                                 },
                                             @{
                                                 @"itemType":@2,
@@ -117,7 +110,7 @@
                                                 @"selectTitleColor":@"#FFFFFF",
                                                 @"normalIconName":@"spcar_unselected",
                                                 @"selectIconName":@"spcar_selected",
-                                                @"vcName":@"YXViewPagerSub4ViewController"
+                                                @"vcName":@"SpcarVC"
                                                 }
                                             ]
                                  };
@@ -127,28 +120,7 @@
 
 /********** 以上为首页相关代码 **********/
 
-
-//-(void)textChange{
-//    if (self.accountField.text.length && self.pwdField.text.length) {
-//        self.loginBtn.enabled = YES;
-//    }
-//    else{
-//        self.loginBtn.enabled = NO;
-//    }
-//}
-
-
-//- (IBAction)checkLogin {
-//    if (![self.accountField.text isEqualToString:@"123"]) {
-//        UIAlertView *accalertview = [[UIAlertView alloc] initWithTitle:@"账号不存在" message:@"您输入的账号有误" delegate:self cancelButtonTitle:@"注册账号" otherButtonTitles:@"好的", nil];
-//        [accalertview show];
-//    }
-//    else if (![self.pwdField.text isEqualToString:@"123"]) {
-//        UIAlertView *pwdalertview = [[UIAlertView alloc] initWithTitle:@"密码错误" message:@"您输入的密码有误      " delegate:self cancelButtonTitle:@"忘记密码" otherButtonTitles:@"好的", nil];
-//        [pwdalertview show];
-//    }
-//}
-
+/********** 以下为文章页相关代码 **********/
 //#pragma mark -UITableViewDataSource
 //-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 //{
@@ -202,6 +174,6 @@
 //    }
 //}
 
-
+/********** 以上为文章页相关代码 **********/
 
 @end

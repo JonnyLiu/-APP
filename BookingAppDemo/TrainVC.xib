@@ -87,7 +87,7 @@
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1b-uT-kyO">
                     <rect key="frame" x="25" y="188" width="320" height="49"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="0.11764705882352941" green="0.56470588235294117" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.11764705882352941" green="0.51764705882352935" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="查 询">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
@@ -105,12 +105,12 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trainVC2.png" translatesAutoresizingMaskIntoConstraints="NO" id="JII-2l-t8a">
-                    <rect key="frame" x="0.0" y="459" width="375" height="74"/>
+                    <rect key="frame" x="0.0" y="457" width="375" height="74"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <point key="canvasLocation" x="117.5" y="67.5"/>
+            <point key="canvasLocation" x="150" y="92"/>
         </view>
     </objects>
     <resources>
