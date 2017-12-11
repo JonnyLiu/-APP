@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#define DEVICE_WIDTH CGRectGetWidth([UIScreen mainScreen].bounds)
+
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate>
 
 //@property (weak, nonatomic) IBOutlet UITextField *accountField;
@@ -26,8 +28,14 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     /********** 以下为首页相关代码 **********/
-    [self renderUI];
-    [self tabItemSelected:0 needAnimation:NO];
+    [self renderUI]; // 渲染主框架
+    [self tabItemSelected:0 needAnimation:NO]; // 主框架定位到第几个tab
+    
+    // 添加一个状态栏背景
+    UIView *navbarView = [[UIView alloc]init];
+    navbarView.frame = CGRectMake(0, 0, DEVICE_WIDTH, 30);
+    navbarView.backgroundColor = [UIColor colorWithHexString:@"#1E90FF"];
+    [self.view addSubview:navbarView];
 
     /********** 以上为首页相关代码 **********/
     
