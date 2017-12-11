@@ -275,7 +275,7 @@
         <!--发现-->
         <scene sceneID="EhX-oR-BxU">
             <objects>
-                <viewController id="QY0-Se-3nU" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="QY0-Se-3nU" customClass="ArticleController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5He-Kb-esI"/>
                         <viewControllerLayoutGuide type="bottom" id="679-cd-SXg"/>

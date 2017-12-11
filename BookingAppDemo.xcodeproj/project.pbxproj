@@ -57,6 +57,7 @@
 		6A2C4CC01FDEBFB000F79130 /* 终.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CBD1FDEBFB000F79130 /* 终.png */; };
 		6A2C4CC11FDEBFB000F79130 /* 起始.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CBE1FDEBFB000F79130 /* 起始.png */; };
 		6A2C4CC31FDEC02100F79130 /* 等待.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CC21FDEC02100F79130 /* 等待.png */; };
+		6A2C4CC61FDEC5EC00F79130 /* ArticleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C4CC51FDEC5EC00F79130 /* ArticleController.m */; };
 		6A42C4A31FDD3C060037D6D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A42C4A21FDD3C060037D6D4 /* Assets.xcassets */; };
 		6A42C4A51FDD8DE20037D6D4 /* TrainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C4A41FDD8DE20037D6D4 /* TrainVC.m */; };
 		6A4D051B1FDC214A0030CE43 /* 启动页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A4D051A1FDC214A0030CE43 /* 启动页.jpg */; };
@@ -182,6 +183,8 @@
 		6A2C4CBD1FDEBFB000F79130 /* 终.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "终.png"; sourceTree = "<group>"; };
 		6A2C4CBE1FDEBFB000F79130 /* 起始.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "起始.png"; sourceTree = "<group>"; };
 		6A2C4CC21FDEC02100F79130 /* 等待.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "等待.png"; sourceTree = "<group>"; };
+		6A2C4CC41FDEC5DA00F79130 /* ArticleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleController.h; sourceTree = "<group>"; };
+		6A2C4CC51FDEC5EC00F79130 /* ArticleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleController.m; sourceTree = "<group>"; };
 		6A42C4511FDD23430037D6D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A42C4531FDD23690037D6D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6A42C4551FDD236E0037D6D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -372,6 +375,8 @@
 				6A2C4C771FDEA69E00F79130 /* LoginViewController.m */,
 				6A2C4C7C1FDEA78000F79130 /* SignupViewController.h */,
 				6A2C4C7A1FDEA73800F79130 /* SignupViewController.m */,
+				6A2C4CC41FDEC5DA00F79130 /* ArticleController.h */,
+				6A2C4CC51FDEC5EC00F79130 /* ArticleController.m */,
 			);
 			name = ViewController;
 			path = BookingAppDemo;
@@ -684,6 +689,7 @@
 				6A2C4CA31FDEB4CF00F79130 /* CarVC.m in Sources */,
 				6A2C4C2A1FDE3DEF00F79130 /* YXViewPagerBaseViewController.m in Sources */,
 				6A2C4C2B1FDE3DEF00F79130 /* YXViewPagerScrollView.m in Sources */,
+				6A2C4CC61FDEC5EC00F79130 /* ArticleController.m in Sources */,
 				6A2C4C221FDE3DEF00F79130 /* YXViewPagerConfigItemModel.m in Sources */,
 				6ACCA1031FD65880009BAE82 /* ViewController.m in Sources */,
 				91682BFF1FC5AEAD0007070D /* main.m in Sources */,

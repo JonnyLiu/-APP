@@ -11,6 +11,5 @@
 
 @interface ViewController : YXViewPagerBaseViewController
 
-
 @end
 
