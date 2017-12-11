@@ -48,6 +48,15 @@
 		6A2C4CA91FDEB4FE00F79130 /* CarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CA81FDEB4FE00F79130 /* CarVC.xib */; };
 		6A2C4CAB1FDEB50F00F79130 /* HotelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CAA1FDEB50F00F79130 /* HotelVC.xib */; };
 		6A2C4CAD1FDEB54E00F79130 /* SpcarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CAC1FDEB54E00F79130 /* SpcarVC.xib */; };
+		6A2C4CB01FDEB8A600F79130 /* carVC1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CAE1FDEB8A600F79130 /* carVC1.png */; };
+		6A2C4CB11FDEB8A600F79130 /* carVC2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CAF1FDEB8A600F79130 /* carVC2.png */; };
+		6A2C4CB41FDEB9CD00F79130 /* hotelVC1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CB21FDEB9CC00F79130 /* hotelVC1.png */; };
+		6A2C4CB71FDEBABA00F79130 /* 定位.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CB61FDEBABA00F79130 /* 定位.png */; };
+		6A2C4CB91FDEBC5700F79130 /* hotelVC2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CB81FDEBC5700F79130 /* hotelVC2.png */; };
+		6A2C4CBB1FDEBDC100F79130 /* spcarVC1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CBA1FDEBDC100F79130 /* spcarVC1.png */; };
+		6A2C4CC01FDEBFB000F79130 /* 终.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CBD1FDEBFB000F79130 /* 终.png */; };
+		6A2C4CC11FDEBFB000F79130 /* 起始.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CBE1FDEBFB000F79130 /* 起始.png */; };
+		6A2C4CC31FDEC02100F79130 /* 等待.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CC21FDEC02100F79130 /* 等待.png */; };
 		6A42C4A31FDD3C060037D6D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A42C4A21FDD3C060037D6D4 /* Assets.xcassets */; };
 		6A42C4A51FDD8DE20037D6D4 /* TrainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C4A41FDD8DE20037D6D4 /* TrainVC.m */; };
 		6A4D051B1FDC214A0030CE43 /* 启动页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A4D051A1FDC214A0030CE43 /* 启动页.jpg */; };
@@ -164,6 +173,15 @@
 		6A2C4CA81FDEB4FE00F79130 /* CarVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarVC.xib; sourceTree = "<group>"; };
 		6A2C4CAA1FDEB50F00F79130 /* HotelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotelVC.xib; sourceTree = "<group>"; };
 		6A2C4CAC1FDEB54E00F79130 /* SpcarVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpcarVC.xib; sourceTree = "<group>"; };
+		6A2C4CAE1FDEB8A600F79130 /* carVC1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carVC1.png; sourceTree = "<group>"; };
+		6A2C4CAF1FDEB8A600F79130 /* carVC2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carVC2.png; sourceTree = "<group>"; };
+		6A2C4CB21FDEB9CC00F79130 /* hotelVC1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotelVC1.png; sourceTree = "<group>"; };
+		6A2C4CB61FDEBABA00F79130 /* 定位.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位.png"; sourceTree = "<group>"; };
+		6A2C4CB81FDEBC5700F79130 /* hotelVC2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotelVC2.png; sourceTree = "<group>"; };
+		6A2C4CBA1FDEBDC100F79130 /* spcarVC1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spcarVC1.png; sourceTree = "<group>"; };
+		6A2C4CBD1FDEBFB000F79130 /* 终.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "终.png"; sourceTree = "<group>"; };
+		6A2C4CBE1FDEBFB000F79130 /* 起始.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "起始.png"; sourceTree = "<group>"; };
+		6A2C4CC21FDEC02100F79130 /* 等待.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "等待.png"; sourceTree = "<group>"; };
 		6A42C4511FDD23430037D6D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A42C4531FDD23690037D6D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6A42C4551FDD236E0037D6D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -370,6 +388,15 @@
 		6A7FDE1C1FCD5A3C002E062C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6A2C4CC21FDEC02100F79130 /* 等待.png */,
+				6A2C4CBD1FDEBFB000F79130 /* 终.png */,
+				6A2C4CBE1FDEBFB000F79130 /* 起始.png */,
+				6A2C4CBA1FDEBDC100F79130 /* spcarVC1.png */,
+				6A2C4CB21FDEB9CC00F79130 /* hotelVC1.png */,
+				6A2C4CB81FDEBC5700F79130 /* hotelVC2.png */,
+				6A2C4CAE1FDEB8A600F79130 /* carVC1.png */,
+				6A2C4CAF1FDEB8A600F79130 /* carVC2.png */,
+				6A2C4CB61FDEBABA00F79130 /* 定位.png */,
 				6A2C4C971FDEAFA000F79130 /* planeVC_1.png */,
 				6A2C4C981FDEAFA000F79130 /* planeVC_2.png */,
 				6A2C4C851FDEAEDF00F79130 /* 意见.png */,
@@ -578,6 +605,7 @@
 				6A2C4C8A1FDEAEEF00F79130 /* 出行.png in Resources */,
 				6A7FDE081FCD2D49002E062C /* 加载.png in Resources */,
 				6A2C4CA91FDEB4FE00F79130 /* CarVC.xib in Resources */,
+				6A2C4CB41FDEB9CD00F79130 /* hotelVC1.png in Resources */,
 				6A2C4C9A1FDEAFA000F79130 /* planeVC_2.png in Resources */,
 				6A2C4C911FDEAF2E00F79130 /* 财富.png in Resources */,
 				6A2C4C321FDE77E800F79130 /* TrainVC.xib in Resources */,
@@ -586,6 +614,7 @@
 				6ACCA1101FD66206009BAE82 /* 约专车-01.png in Resources */,
 				6A2C4C941FDEAF4F00F79130 /* 右.png in Resources */,
 				6ACCA10D1FD66206009BAE82 /* 20拼车.png in Resources */,
+				6A2C4CB91FDEBC5700F79130 /* hotelVC2.png in Resources */,
 				6A2C4CAB1FDEB50F00F79130 /* HotelVC.xib in Resources */,
 				6A2C4C441FDE88D000F79130 /* trainVC3.png in Resources */,
 				6A7FDE0D1FCD2D49002E062C /* 更新.png in Resources */,
@@ -596,15 +625,18 @@
 				6A7FDE041FCD2D49002E062C /* 个人-头像.png in Resources */,
 				6A7FDE231FCD5B2D002E062C /* 订单.png in Resources */,
 				6ACCA1151FD66206009BAE82 /* 门票.png in Resources */,
+				6A2C4CC11FDEBFB000F79130 /* 起始.png in Resources */,
 				6A2C4C381FDE799900F79130 /* PlaneVC.xib in Resources */,
 				6A7FDE241FCD5B2D002E062C /* 首页.png in Resources */,
 				6A7FDDB51FCD223D002E062C /* Main.storyboard in Resources */,
 				6A7FDE051FCD2D49002E062C /* 人头.png in Resources */,
 				6A2C4CAD1FDEB54E00F79130 /* SpcarVC.xib in Resources */,
 				6ACCA10E1FD66206009BAE82 /* 抢手票-4.png in Resources */,
+				6A2C4CB71FDEBABA00F79130 /* 定位.png in Resources */,
 				6A2C4C861FDEAEDF00F79130 /* 意见.png in Resources */,
 				6A2C4C3E1FDE85CD00F79130 /* trainVC2.png in Resources */,
 				6ACCA1131FD66206009BAE82 /* 订餐.png in Resources */,
+				6A2C4CC01FDEBFB000F79130 /* 终.png in Resources */,
 				6A2C4C3D1FDE85CD00F79130 /* trainVC1.png in Resources */,
 				6A2C4C991FDEAFA000F79130 /* planeVC_1.png in Resources */,
 				6A7FDE261FCD5BF3002E062C /* 我的.png in Resources */,
@@ -613,9 +645,13 @@
 				6A42C4A31FDD3C060037D6D4 /* Assets.xcassets in Resources */,
 				6A4D051B1FDC214A0030CE43 /* 启动页.jpg in Resources */,
 				6A7FDDB41FCD223D002E062C /* LaunchScreen.storyboard in Resources */,
+				6A2C4CBB1FDEBDC100F79130 /* spcarVC1.png in Resources */,
 				6ACCA10F1FD66206009BAE82 /* 时刻表.png in Resources */,
+				6A2C4CB11FDEB8A600F79130 /* carVC2.png in Resources */,
+				6A2C4CB01FDEB8A600F79130 /* carVC1.png in Resources */,
 				6ACCA1121FD66206009BAE82 /* 船.png in Resources */,
 				6A7FDE211FCD5B2D002E062C /* 发现.png in Resources */,
+				6A2C4CC31FDEC02100F79130 /* 等待.png in Resources */,
 				6A7FDE0F1FCD2D49002E062C /* 线条5.png in Resources */,
 				6A2C4C961FDEAF7400F79130 /* 交换.png in Resources */,
 			);
