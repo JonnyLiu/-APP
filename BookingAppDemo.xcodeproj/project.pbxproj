@@ -58,6 +58,11 @@
 		6A2C4CC11FDEBFB000F79130 /* 起始.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CBE1FDEBFB000F79130 /* 起始.png */; };
 		6A2C4CC31FDEC02100F79130 /* 等待.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CC21FDEC02100F79130 /* 等待.png */; };
 		6A2C4CC61FDEC5EC00F79130 /* ArticleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C4CC51FDEC5EC00F79130 /* ArticleController.m */; };
+		6A2C4CC91FDF715900F79130 /* OrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C4CC81FDF715900F79130 /* OrderController.m */; };
+		6A2C4CCC1FDF75B100F79130 /* 酒店o.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CCA1FDF75B100F79130 /* 酒店o.png */; };
+		6A2C4CCD1FDF75B100F79130 /* 飞机o.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CCB1FDF75B100F79130 /* 飞机o.png */; };
+		6A2C4CD01FDF75C200F79130 /* 汽车o.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CCE1FDF75C200F79130 /* 汽车o.png */; };
+		6A2C4CD11FDF75C200F79130 /* 火车o.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CCF1FDF75C200F79130 /* 火车o.png */; };
 		6A42C4A31FDD3C060037D6D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A42C4A21FDD3C060037D6D4 /* Assets.xcassets */; };
 		6A42C4A51FDD8DE20037D6D4 /* TrainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C4A41FDD8DE20037D6D4 /* TrainVC.m */; };
 		6A4D051B1FDC214A0030CE43 /* 启动页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A4D051A1FDC214A0030CE43 /* 启动页.jpg */; };
@@ -185,6 +190,12 @@
 		6A2C4CC21FDEC02100F79130 /* 等待.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "等待.png"; sourceTree = "<group>"; };
 		6A2C4CC41FDEC5DA00F79130 /* ArticleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleController.h; sourceTree = "<group>"; };
 		6A2C4CC51FDEC5EC00F79130 /* ArticleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleController.m; sourceTree = "<group>"; };
+		6A2C4CC71FDF714E00F79130 /* OrderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderController.h; sourceTree = "<group>"; };
+		6A2C4CC81FDF715900F79130 /* OrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderController.m; sourceTree = "<group>"; };
+		6A2C4CCA1FDF75B100F79130 /* 酒店o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "酒店o.png"; sourceTree = "<group>"; };
+		6A2C4CCB1FDF75B100F79130 /* 飞机o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "飞机o.png"; sourceTree = "<group>"; };
+		6A2C4CCE1FDF75C200F79130 /* 汽车o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "汽车o.png"; sourceTree = "<group>"; };
+		6A2C4CCF1FDF75C200F79130 /* 火车o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火车o.png"; sourceTree = "<group>"; };
 		6A42C4511FDD23430037D6D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A42C4531FDD23690037D6D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6A42C4551FDD236E0037D6D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -377,6 +388,8 @@
 				6A2C4C7A1FDEA73800F79130 /* SignupViewController.m */,
 				6A2C4CC41FDEC5DA00F79130 /* ArticleController.h */,
 				6A2C4CC51FDEC5EC00F79130 /* ArticleController.m */,
+				6A2C4CC71FDF714E00F79130 /* OrderController.h */,
+				6A2C4CC81FDF715900F79130 /* OrderController.m */,
 			);
 			name = ViewController;
 			path = BookingAppDemo;
@@ -393,6 +406,10 @@
 		6A7FDE1C1FCD5A3C002E062C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6A2C4CCE1FDF75C200F79130 /* 汽车o.png */,
+				6A2C4CCF1FDF75C200F79130 /* 火车o.png */,
+				6A2C4CCA1FDF75B100F79130 /* 酒店o.png */,
+				6A2C4CCB1FDF75B100F79130 /* 飞机o.png */,
 				6A2C4CC21FDEC02100F79130 /* 等待.png */,
 				6A2C4CBD1FDEBFB000F79130 /* 终.png */,
 				6A2C4CBE1FDEBFB000F79130 /* 起始.png */,
@@ -614,6 +631,7 @@
 				6A2C4C9A1FDEAFA000F79130 /* planeVC_2.png in Resources */,
 				6A2C4C911FDEAF2E00F79130 /* 财富.png in Resources */,
 				6A2C4C321FDE77E800F79130 /* TrainVC.xib in Resources */,
+				6A2C4CCD1FDF75B100F79130 /* 飞机o.png in Resources */,
 				6ACCA1141FD66206009BAE82 /* 酒店.png in Resources */,
 				6A2C4C9E1FDEAFBE00F79130 /* my_2.png in Resources */,
 				6ACCA1101FD66206009BAE82 /* 约专车-01.png in Resources */,
@@ -622,6 +640,7 @@
 				6A2C4CB91FDEBC5700F79130 /* hotelVC2.png in Resources */,
 				6A2C4CAB1FDEB50F00F79130 /* HotelVC.xib in Resources */,
 				6A2C4C441FDE88D000F79130 /* trainVC3.png in Resources */,
+				6A2C4CD01FDF75C200F79130 /* 汽车o.png in Resources */,
 				6A7FDE0D1FCD2D49002E062C /* 更新.png in Resources */,
 				6ACCA1111FD66206009BAE82 /* 线.png in Resources */,
 				6A2C4C881FDEAEE800F79130 /* 更多.png in Resources */,
@@ -651,6 +670,7 @@
 				6A4D051B1FDC214A0030CE43 /* 启动页.jpg in Resources */,
 				6A7FDDB41FCD223D002E062C /* LaunchScreen.storyboard in Resources */,
 				6A2C4CBB1FDEBDC100F79130 /* spcarVC1.png in Resources */,
+				6A2C4CD11FDF75C200F79130 /* 火车o.png in Resources */,
 				6ACCA10F1FD66206009BAE82 /* 时刻表.png in Resources */,
 				6A2C4CB11FDEB8A600F79130 /* carVC2.png in Resources */,
 				6A2C4CB01FDEB8A600F79130 /* carVC1.png in Resources */,
@@ -658,6 +678,7 @@
 				6A7FDE211FCD5B2D002E062C /* 发现.png in Resources */,
 				6A2C4CC31FDEC02100F79130 /* 等待.png in Resources */,
 				6A7FDE0F1FCD2D49002E062C /* 线条5.png in Resources */,
+				6A2C4CCC1FDF75B100F79130 /* 酒店o.png in Resources */,
 				6A2C4C961FDEAF7400F79130 /* 交换.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -686,6 +707,7 @@
 				6A2C4C2C1FDE3DEF00F79130 /* YXViewPagerTopItemView.m in Sources */,
 				6A2C4C251FDE3DEF00F79130 /* UIColor+YX.m in Sources */,
 				6A2C4C241FDE3DEF00F79130 /* YXViewPagerItemViewModel.m in Sources */,
+				6A2C4CC91FDF715900F79130 /* OrderController.m in Sources */,
 				6A2C4CA31FDEB4CF00F79130 /* CarVC.m in Sources */,
 				6A2C4C2A1FDE3DEF00F79130 /* YXViewPagerBaseViewController.m in Sources */,
 				6A2C4C2B1FDE3DEF00F79130 /* YXViewPagerScrollView.m in Sources */,

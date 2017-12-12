@@ -1,21 +1,22 @@
 //
-//  MyViewController.m
+//  OrderController.m
 //  BookingAppDemo
 //
-//  Created by Allen on 11/12/2017.
+//  Created by Allen on 12/12/2017.
 //  Copyright © 2017 Group3. All rights reserved.
 //
 
-#import "MyViewController.h"
+#import <Foundation/Foundation.h>
+#import "OrderController.h"
 
-@interface MyViewController ()
+@interface OrderController () <UITableViewDataSource>
+
 @end
 
-@implementation MyViewController
+@implementation OrderController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 
@@ -29,10 +30,10 @@
     [self.navigationController setNavigationBarHidden:YES animated:YES];
     
 }
+
 -(void) viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
     [self.navigationController setNavigationBarHidden:NO animated:YES];
 }
-
 
 @end
