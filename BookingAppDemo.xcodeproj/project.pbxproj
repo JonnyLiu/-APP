@@ -63,6 +63,11 @@
 		6A2C4CCD1FDF75B100F79130 /* 飞机o.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CCB1FDF75B100F79130 /* 飞机o.png */; };
 		6A2C4CD01FDF75C200F79130 /* 汽车o.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CCE1FDF75C200F79130 /* 汽车o.png */; };
 		6A2C4CD11FDF75C200F79130 /* 火车o.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CCF1FDF75C200F79130 /* 火车o.png */; };
+		6A2C4CD31FDF963200F79130 /* TrainVC2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CD21FDF963200F79130 /* TrainVC2.xib */; };
+		6A2C4CD81FDF9F3100F79130 /* 特价机票.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CD71FDF9F3100F79130 /* 特价机票.png */; };
+		6A2C4CDB1FDFA23B00F79130 /* 交换b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CD91FDFA23B00F79130 /* 交换b.png */; };
+		6A2C4CDC1FDFA23B00F79130 /* 日历.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CDA1FDFA23B00F79130 /* 日历.png */; };
+		6A2C4CDE1FDFA75C00F79130 /* 连接线.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CDD1FDFA75C00F79130 /* 连接线.png */; };
 		6A42C4A31FDD3C060037D6D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A42C4A21FDD3C060037D6D4 /* Assets.xcassets */; };
 		6A42C4A51FDD8DE20037D6D4 /* TrainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C4A41FDD8DE20037D6D4 /* TrainVC.m */; };
 		6A4D051B1FDC214A0030CE43 /* 启动页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A4D051A1FDC214A0030CE43 /* 启动页.jpg */; };
@@ -196,6 +201,11 @@
 		6A2C4CCB1FDF75B100F79130 /* 飞机o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "飞机o.png"; sourceTree = "<group>"; };
 		6A2C4CCE1FDF75C200F79130 /* 汽车o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "汽车o.png"; sourceTree = "<group>"; };
 		6A2C4CCF1FDF75C200F79130 /* 火车o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火车o.png"; sourceTree = "<group>"; };
+		6A2C4CD21FDF963200F79130 /* TrainVC2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrainVC2.xib; sourceTree = "<group>"; };
+		6A2C4CD71FDF9F3100F79130 /* 特价机票.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "特价机票.png"; sourceTree = "<group>"; };
+		6A2C4CD91FDFA23B00F79130 /* 交换b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "交换b.png"; sourceTree = "<group>"; };
+		6A2C4CDA1FDFA23B00F79130 /* 日历.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历.png"; sourceTree = "<group>"; };
+		6A2C4CDD1FDFA75C00F79130 /* 连接线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "连接线.png"; sourceTree = "<group>"; };
 		6A42C4511FDD23430037D6D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A42C4531FDD23690037D6D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6A42C4551FDD236E0037D6D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -343,6 +353,7 @@
 		6A2C4C2E1FDE77D900F79130 /* SubView */ = {
 			isa = PBXGroup;
 			children = (
+				6A2C4CD21FDF963200F79130 /* TrainVC2.xib */,
 				6A2C4C2F1FDE77E800F79130 /* TrainVC.xib */,
 				6A42C4A61FDD8DF50037D6D4 /* TrainVC.h */,
 				6A42C4A41FDD8DE20037D6D4 /* TrainVC.m */,
@@ -406,6 +417,10 @@
 		6A7FDE1C1FCD5A3C002E062C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6A2C4CDD1FDFA75C00F79130 /* 连接线.png */,
+				6A2C4CD91FDFA23B00F79130 /* 交换b.png */,
+				6A2C4CDA1FDFA23B00F79130 /* 日历.png */,
+				6A2C4CD71FDF9F3100F79130 /* 特价机票.png */,
 				6A2C4CCE1FDF75C200F79130 /* 汽车o.png */,
 				6A2C4CCF1FDF75C200F79130 /* 火车o.png */,
 				6A2C4CCA1FDF75B100F79130 /* 酒店o.png */,
@@ -627,6 +642,7 @@
 				6A2C4C8A1FDEAEEF00F79130 /* 出行.png in Resources */,
 				6A7FDE081FCD2D49002E062C /* 加载.png in Resources */,
 				6A2C4CA91FDEB4FE00F79130 /* CarVC.xib in Resources */,
+				6A2C4CD31FDF963200F79130 /* TrainVC2.xib in Resources */,
 				6A2C4CB41FDEB9CD00F79130 /* hotelVC1.png in Resources */,
 				6A2C4C9A1FDEAFA000F79130 /* planeVC_2.png in Resources */,
 				6A2C4C911FDEAF2E00F79130 /* 财富.png in Resources */,
@@ -642,6 +658,7 @@
 				6A2C4C441FDE88D000F79130 /* trainVC3.png in Resources */,
 				6A2C4CD01FDF75C200F79130 /* 汽车o.png in Resources */,
 				6A7FDE0D1FCD2D49002E062C /* 更新.png in Resources */,
+				6A2C4CDE1FDFA75C00F79130 /* 连接线.png in Resources */,
 				6ACCA1111FD66206009BAE82 /* 线.png in Resources */,
 				6A2C4C881FDEAEE800F79130 /* 更多.png in Resources */,
 				6A7FDE021FCD2D49002E062C /* 1111.png in Resources */,
@@ -656,10 +673,12 @@
 				6A7FDE051FCD2D49002E062C /* 人头.png in Resources */,
 				6A2C4CAD1FDEB54E00F79130 /* SpcarVC.xib in Resources */,
 				6ACCA10E1FD66206009BAE82 /* 抢手票-4.png in Resources */,
+				6A2C4CDB1FDFA23B00F79130 /* 交换b.png in Resources */,
 				6A2C4CB71FDEBABA00F79130 /* 定位.png in Resources */,
 				6A2C4C861FDEAEDF00F79130 /* 意见.png in Resources */,
 				6A2C4C3E1FDE85CD00F79130 /* trainVC2.png in Resources */,
 				6ACCA1131FD66206009BAE82 /* 订餐.png in Resources */,
+				6A2C4CDC1FDFA23B00F79130 /* 日历.png in Resources */,
 				6A2C4CC01FDEBFB000F79130 /* 终.png in Resources */,
 				6A2C4C3D1FDE85CD00F79130 /* trainVC1.png in Resources */,
 				6A2C4C991FDEAFA000F79130 /* planeVC_1.png in Resources */,
@@ -674,6 +693,7 @@
 				6ACCA10F1FD66206009BAE82 /* 时刻表.png in Resources */,
 				6A2C4CB11FDEB8A600F79130 /* carVC2.png in Resources */,
 				6A2C4CB01FDEB8A600F79130 /* carVC1.png in Resources */,
+				6A2C4CD81FDF9F3100F79130 /* 特价机票.png in Resources */,
 				6ACCA1121FD66206009BAE82 /* 船.png in Resources */,
 				6A7FDE211FCD5B2D002E062C /* 发现.png in Resources */,
 				6A2C4CC31FDEC02100F79130 /* 等待.png in Resources */,

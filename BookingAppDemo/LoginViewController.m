@@ -50,6 +50,9 @@
         UIAlertView *pwdalertview = [[UIAlertView alloc] initWithTitle:@"密码错误" message:@"您输入的密码有误" delegate:self cancelButtonTitle:@"忘记密码" otherButtonTitles:@"好的", nil];
         [pwdalertview show];
     }
+    else {
+        [self performSegueWithIdentifier:@"login" sender:nil];
+    }
 }
 
 

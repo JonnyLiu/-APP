@@ -15,6 +15,11 @@
 
 @implementation TrainVC
 
+- (IBAction)queryBtn:(id)sender {
+    UIViewController *vc = [[UIViewController alloc] initWithNibName:@"TrainVC2" bundle:nil];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
