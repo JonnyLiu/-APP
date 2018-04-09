@@ -68,6 +68,23 @@
 		6A2C4CDB1FDFA23B00F79130 /* 交换b.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CD91FDFA23B00F79130 /* 交换b.png */; };
 		6A2C4CDC1FDFA23B00F79130 /* 日历.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CDA1FDFA23B00F79130 /* 日历.png */; };
 		6A2C4CDE1FDFA75C00F79130 /* 连接线.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CDD1FDFA75C00F79130 /* 连接线.png */; };
+		6A2C4CE01FDFB88700F79130 /* 问号.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CDF1FDFB88700F79130 /* 问号.png */; };
+		6A2C4CE21FDFB8CF00F79130 /* 消息22.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CE11FDFB8CF00F79130 /* 消息22.png */; };
+		6A2C4CE41FDFB8DF00F79130 /* 火车票.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CE31FDFB8DF00F79130 /* 火车票.png */; };
+		6A2C4CE61FDFB8ED00F79130 /* 现金.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CE51FDFB8ED00F79130 /* 现金.png */; };
+		6A2C4CE81FDFB8F700F79130 /* 礼物.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CE71FDFB8F700F79130 /* 礼物.png */; };
+		6A2C4CEA1FDFB90000F79130 /* 提现.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CE91FDFB90000F79130 /* 提现.png */; };
+		6A2C4CEC1FDFB90C00F79130 /* 积分.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CEB1FDFB90C00F79130 /* 积分.png */; };
+		6A2C4CEE1FDFB91A00F79130 /* 竖线.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CED1FDFB91A00F79130 /* 竖线.png */; };
+		6A2C4CF01FDFB92D00F79130 /* 钱.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CEF1FDFB92D00F79130 /* 钱.png */; };
+		6A2C4CF21FDFB94600F79130 /* 信用情况.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CF11FDFB94600F79130 /* 信用情况.png */; };
+		6A2C4CF41FDFB95000F79130 /* 个人.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CF31FDFB95000F79130 /* 个人.png */; };
+		6A2C4CF61FDFB95F00F79130 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CF51FDFB95F00F79130 /* 0.png */; };
+		6A2C4CF81FDFB9C700F79130 /* 个人-头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CF71FDFB9C700F79130 /* 个人-头像.png */; };
+		6A2C4CFA1FDFB9DD00F79130 /* 关于我们.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CF91FDFB9DD00F79130 /* 关于我们.png */; };
+		6A2C4CFC1FDFBA6600F79130 /* 菱形2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CFB1FDFBA6600F79130 /* 菱形2.png */; };
+		6A2C4CFE1FDFBA7700F79130 /* 好友.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CFD1FDFBA7700F79130 /* 好友.png */; };
+		6A2C4D001FDFBA8B00F79130 /* 旅行.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C4CFF1FDFBA8B00F79130 /* 旅行.png */; };
 		6A42C4A31FDD3C060037D6D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A42C4A21FDD3C060037D6D4 /* Assets.xcassets */; };
 		6A42C4A51FDD8DE20037D6D4 /* TrainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C4A41FDD8DE20037D6D4 /* TrainVC.m */; };
 		6A4D051B1FDC214A0030CE43 /* 启动页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A4D051A1FDC214A0030CE43 /* 启动页.jpg */; };
@@ -206,6 +223,23 @@
 		6A2C4CD91FDFA23B00F79130 /* 交换b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "交换b.png"; sourceTree = "<group>"; };
 		6A2C4CDA1FDFA23B00F79130 /* 日历.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历.png"; sourceTree = "<group>"; };
 		6A2C4CDD1FDFA75C00F79130 /* 连接线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "连接线.png"; sourceTree = "<group>"; };
+		6A2C4CDF1FDFB88700F79130 /* 问号.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "问号.png"; sourceTree = "<group>"; };
+		6A2C4CE11FDFB8CF00F79130 /* 消息22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息22.png"; sourceTree = "<group>"; };
+		6A2C4CE31FDFB8DF00F79130 /* 火车票.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火车票.png"; sourceTree = "<group>"; };
+		6A2C4CE51FDFB8ED00F79130 /* 现金.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "现金.png"; sourceTree = "<group>"; };
+		6A2C4CE71FDFB8F700F79130 /* 礼物.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "礼物.png"; sourceTree = "<group>"; };
+		6A2C4CE91FDFB90000F79130 /* 提现.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提现.png"; sourceTree = "<group>"; };
+		6A2C4CEB1FDFB90C00F79130 /* 积分.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "积分.png"; sourceTree = "<group>"; };
+		6A2C4CED1FDFB91A00F79130 /* 竖线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竖线.png"; sourceTree = "<group>"; };
+		6A2C4CEF1FDFB92D00F79130 /* 钱.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "钱.png"; sourceTree = "<group>"; };
+		6A2C4CF11FDFB94600F79130 /* 信用情况.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "信用情况.png"; sourceTree = "<group>"; };
+		6A2C4CF31FDFB95000F79130 /* 个人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人.png"; sourceTree = "<group>"; };
+		6A2C4CF51FDFB95F00F79130 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		6A2C4CF71FDFB9C700F79130 /* 个人-头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人-头像.png"; sourceTree = "<group>"; };
+		6A2C4CF91FDFB9DD00F79130 /* 关于我们.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于我们.png"; sourceTree = "<group>"; };
+		6A2C4CFB1FDFBA6600F79130 /* 菱形2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "菱形2.png"; sourceTree = "<group>"; };
+		6A2C4CFD1FDFBA7700F79130 /* 好友.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "好友.png"; sourceTree = "<group>"; };
+		6A2C4CFF1FDFBA8B00F79130 /* 旅行.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "旅行.png"; sourceTree = "<group>"; };
 		6A42C4511FDD23430037D6D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A42C4531FDD23690037D6D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6A42C4551FDD236E0037D6D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -417,7 +451,24 @@
 		6A7FDE1C1FCD5A3C002E062C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6A2C4CEF1FDFB92D00F79130 /* 钱.png */,
+				6A2C4CF11FDFB94600F79130 /* 信用情况.png */,
+				6A2C4CF51FDFB95F00F79130 /* 0.png */,
+				6A2C4CFD1FDFBA7700F79130 /* 好友.png */,
+				6A2C4CF71FDFB9C700F79130 /* 个人-头像.png */,
+				6A2C4CF91FDFB9DD00F79130 /* 关于我们.png */,
+				6A2C4CFF1FDFBA8B00F79130 /* 旅行.png */,
+				6A2C4CF31FDFB95000F79130 /* 个人.png */,
+				6A2C4CFB1FDFBA6600F79130 /* 菱形2.png */,
+				6A2C4CEB1FDFB90C00F79130 /* 积分.png */,
+				6A2C4CE51FDFB8ED00F79130 /* 现金.png */,
+				6A2C4CED1FDFB91A00F79130 /* 竖线.png */,
+				6A2C4CE91FDFB90000F79130 /* 提现.png */,
+				6A2C4CE71FDFB8F700F79130 /* 礼物.png */,
 				6A2C4CDD1FDFA75C00F79130 /* 连接线.png */,
+				6A2C4CE11FDFB8CF00F79130 /* 消息22.png */,
+				6A2C4CE31FDFB8DF00F79130 /* 火车票.png */,
+				6A2C4CDF1FDFB88700F79130 /* 问号.png */,
 				6A2C4CD91FDFA23B00F79130 /* 交换b.png */,
 				6A2C4CDA1FDFA23B00F79130 /* 日历.png */,
 				6A2C4CD71FDF9F3100F79130 /* 特价机票.png */,
@@ -637,23 +688,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2C4CEC1FDFB90C00F79130 /* 积分.png in Resources */,
 				6A2C4C9D1FDEAFBE00F79130 /* my_1.png in Resources */,
 				6A2C4C901FDEAF2E00F79130 /* 消息.png in Resources */,
+				6A2C4CE81FDFB8F700F79130 /* 礼物.png in Resources */,
 				6A2C4C8A1FDEAEEF00F79130 /* 出行.png in Resources */,
+				6A2C4CE61FDFB8ED00F79130 /* 现金.png in Resources */,
 				6A7FDE081FCD2D49002E062C /* 加载.png in Resources */,
 				6A2C4CA91FDEB4FE00F79130 /* CarVC.xib in Resources */,
 				6A2C4CD31FDF963200F79130 /* TrainVC2.xib in Resources */,
+				6A2C4CF01FDFB92D00F79130 /* 钱.png in Resources */,
+				6A2C4D001FDFBA8B00F79130 /* 旅行.png in Resources */,
 				6A2C4CB41FDEB9CD00F79130 /* hotelVC1.png in Resources */,
 				6A2C4C9A1FDEAFA000F79130 /* planeVC_2.png in Resources */,
+				6A2C4CF81FDFB9C700F79130 /* 个人-头像.png in Resources */,
 				6A2C4C911FDEAF2E00F79130 /* 财富.png in Resources */,
 				6A2C4C321FDE77E800F79130 /* TrainVC.xib in Resources */,
+				6A2C4CFC1FDFBA6600F79130 /* 菱形2.png in Resources */,
 				6A2C4CCD1FDF75B100F79130 /* 飞机o.png in Resources */,
 				6ACCA1141FD66206009BAE82 /* 酒店.png in Resources */,
+				6A2C4CFE1FDFBA7700F79130 /* 好友.png in Resources */,
 				6A2C4C9E1FDEAFBE00F79130 /* my_2.png in Resources */,
 				6ACCA1101FD66206009BAE82 /* 约专车-01.png in Resources */,
 				6A2C4C941FDEAF4F00F79130 /* 右.png in Resources */,
 				6ACCA10D1FD66206009BAE82 /* 20拼车.png in Resources */,
 				6A2C4CB91FDEBC5700F79130 /* hotelVC2.png in Resources */,
+				6A2C4CF61FDFB95F00F79130 /* 0.png in Resources */,
 				6A2C4CAB1FDEB50F00F79130 /* HotelVC.xib in Resources */,
 				6A2C4C441FDE88D000F79130 /* trainVC3.png in Resources */,
 				6A2C4CD01FDF75C200F79130 /* 汽车o.png in Resources */,
@@ -664,22 +724,28 @@
 				6A7FDE021FCD2D49002E062C /* 1111.png in Resources */,
 				6A2C4C921FDEAF2E00F79130 /* 邀请.png in Resources */,
 				6A7FDE041FCD2D49002E062C /* 个人-头像.png in Resources */,
+				6A2C4CF41FDFB95000F79130 /* 个人.png in Resources */,
 				6A7FDE231FCD5B2D002E062C /* 订单.png in Resources */,
 				6ACCA1151FD66206009BAE82 /* 门票.png in Resources */,
 				6A2C4CC11FDEBFB000F79130 /* 起始.png in Resources */,
+				6A2C4CE01FDFB88700F79130 /* 问号.png in Resources */,
 				6A2C4C381FDE799900F79130 /* PlaneVC.xib in Resources */,
 				6A7FDE241FCD5B2D002E062C /* 首页.png in Resources */,
 				6A7FDDB51FCD223D002E062C /* Main.storyboard in Resources */,
+				6A2C4CEA1FDFB90000F79130 /* 提现.png in Resources */,
 				6A7FDE051FCD2D49002E062C /* 人头.png in Resources */,
 				6A2C4CAD1FDEB54E00F79130 /* SpcarVC.xib in Resources */,
 				6ACCA10E1FD66206009BAE82 /* 抢手票-4.png in Resources */,
 				6A2C4CDB1FDFA23B00F79130 /* 交换b.png in Resources */,
+				6A2C4CE21FDFB8CF00F79130 /* 消息22.png in Resources */,
+				6A2C4CEE1FDFB91A00F79130 /* 竖线.png in Resources */,
 				6A2C4CB71FDEBABA00F79130 /* 定位.png in Resources */,
 				6A2C4C861FDEAEDF00F79130 /* 意见.png in Resources */,
 				6A2C4C3E1FDE85CD00F79130 /* trainVC2.png in Resources */,
 				6ACCA1131FD66206009BAE82 /* 订餐.png in Resources */,
 				6A2C4CDC1FDFA23B00F79130 /* 日历.png in Resources */,
 				6A2C4CC01FDEBFB000F79130 /* 终.png in Resources */,
+				6A2C4CFA1FDFB9DD00F79130 /* 关于我们.png in Resources */,
 				6A2C4C3D1FDE85CD00F79130 /* trainVC1.png in Resources */,
 				6A2C4C991FDEAFA000F79130 /* planeVC_1.png in Resources */,
 				6A7FDE261FCD5BF3002E062C /* 我的.png in Resources */,
@@ -692,12 +758,14 @@
 				6A2C4CD11FDF75C200F79130 /* 火车o.png in Resources */,
 				6ACCA10F1FD66206009BAE82 /* 时刻表.png in Resources */,
 				6A2C4CB11FDEB8A600F79130 /* carVC2.png in Resources */,
+				6A2C4CF21FDFB94600F79130 /* 信用情况.png in Resources */,
 				6A2C4CB01FDEB8A600F79130 /* carVC1.png in Resources */,
 				6A2C4CD81FDF9F3100F79130 /* 特价机票.png in Resources */,
 				6ACCA1121FD66206009BAE82 /* 船.png in Resources */,
 				6A7FDE211FCD5B2D002E062C /* 发现.png in Resources */,
 				6A2C4CC31FDEC02100F79130 /* 等待.png in Resources */,
 				6A7FDE0F1FCD2D49002E062C /* 线条5.png in Resources */,
+				6A2C4CE41FDFB8DF00F79130 /* 火车票.png in Resources */,
 				6A2C4CCC1FDF75B100F79130 /* 酒店o.png in Resources */,
 				6A2C4C961FDEAF7400F79130 /* 交换.png in Resources */,
 			);
